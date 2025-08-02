@@ -7,8 +7,15 @@
     font-family: Roboto;
 }
 
+body {
+    min-height: 2000px;
+    display: flex;
+    flex-direction: column;
+}
+
 .header-container {
     background-color: #1F2937;
+    padding: 16px 300px 64px;
 }
 
 .header-logo {
@@ -16,7 +23,7 @@
     color: #F9FAF8;
 }
 
-.header-links,
+a,
 .hero-desc {
     font-size: 18px;
     color: #E5E7EB;
@@ -48,4 +55,43 @@
     color: #1F2937;
     font-weight: 300;
     font-style: italic;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 64px;
+}
+
+ul {
+ display: flex;
+ gap: 16px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.building-tent {
+    height: 400px;
+    width: auto;
+    margin-left: 64px;
+}
+
+.mission-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.hero-desc {
+    line-height: 30px;
+}
+
+.see-more {
+    padding: 8px 20px;
+    margin-top: 8px;
+    color: #F9FAF8;
+    border-radius: 4px;
+    font-weight: 500;
+    border: none;
 }
