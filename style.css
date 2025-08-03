@@ -8,7 +8,7 @@
 }
 
 body {
-    min-height: 2000px;
+    min-height: 1750px;
     display: flex;
     flex-direction: column;
 }
@@ -156,4 +156,15 @@ a {
     background-color: #3882F6;
     border-width: 2px;
     padding: 8px 20px;
+}
+
+.footer {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-text {
+    color: #F9FAF8;
 }
