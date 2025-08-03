@@ -13,8 +13,12 @@ body {
     flex-direction: column;
 }
 
-.header-container {
+.header-container,
+.footer {
     background-color: #1F2937;
+}
+
+.header-container {
     padding: 16px 300px 64px;
 }
 
@@ -123,10 +127,33 @@ a {
 }
 
 .quote-container {
-    padding: 64px 300px;
+    padding: 64px 550px;
 }
 
 .author {
     text-align: right;
     font-weight: 500;
+}
+
+.hiring-container {
+    padding: 64px 300px;
+}
+
+.call-to-action {
+    color: #F9FAF8;
+    padding: 48px 260px;
+    border-radius: 16px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.sign-up {
+    color: #F9FAF8;
+    border-radius: 4px;
+    font-weight: 500;
+    border: solid #F9FAF8;
+    background-color: #3882F6;
+    border-width: 2px;
+    padding: 8px 20px;
 }
