@@ -109,21 +109,19 @@ a {
     padding: 0 300px;
 }
 
-.profession-text {
-    display: flex;
-    text-align: center;
-    gap: 120px;
-    margin-bottom: 128px;
-}
-
 .profession-images {
     display: flex;
     gap: 64px;
+    margin-bottom: 128px;
 }
 
 .pimage {
     border: solid 4px #3882F6;
     border-radius: 16px;
+}
+
+.pelement {
+    text-align: center;
 }
 
 .quote-container {
